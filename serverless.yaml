@@ -1,0 +1,20 @@
+﻿service: RossumNoSkillsCards
+provider:
+  name: aws
+  runtime: nodejs8.10  
+  region: us-east-1
+  stage: prod
+
+functions:
+  index:
+    handler: index.handler
+    name: RossumNoSkillsCardsV4
+    runtime: nodejs8.10
+    timeout: 180
+    events:
+      - http:
+          method: POST
+          path: skill
+          cors: true
+    environment:
+      ROSSUM_SECRET_KEY: ''

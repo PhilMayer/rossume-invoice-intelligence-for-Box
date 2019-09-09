@@ -1,0 +1,23 @@
+{
+  "name": "rossum-invoice-extraction",
+  "version": "2.0.0",
+  "description": "Box / Rossum Custom Skill",
+  "scripts": {
+    "test": "mocha tests/rossum-tests.js"
+  },
+  "author": "Phillip Mayer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "box-node-sdk": "^1.23.0",
+    "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "jimp": "^0.5.4",
+    "lodash": "^4.17.10",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2"
+  }
+}
