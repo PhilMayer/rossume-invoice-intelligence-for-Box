@@ -8,7 +8,7 @@
   "author": "Phillip Mayer",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "box-node-sdk": "^1.23.0",
     "dotenv": "^5.0.1",
     "fs": "0.0.1-security",
